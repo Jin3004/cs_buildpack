@@ -1,1 +1,5 @@
-dotnet bin/Debug/netcoreapp2.1/TenJinCoder.dll
+cat << EOF
+addons: []
+default_process_types:
+  web: dotnet bin/Debug/netcoreapp2.1/TenJinCoder.dll
+EOF
